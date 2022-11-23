@@ -29,6 +29,8 @@
 
 #include "cutils.h"
 
+FILE * __cdecl __iob_func(void) {return _iob; }
+
 void pstrcpy(char *buf, int buf_size, const char *str)
 {
     int c;

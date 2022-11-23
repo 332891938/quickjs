@@ -28,6 +28,8 @@
 #include <stdlib.h>
 #include <inttypes.h>
 
+FILE * __cdecl __iob_func(void);
+
 /* set if CPU is big endian */
 #undef WORDS_BIGENDIAN
 

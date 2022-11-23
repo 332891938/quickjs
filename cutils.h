@@ -28,7 +28,9 @@
 #include <stdlib.h>
 #include <inttypes.h>
 
+#ifdef _WIN32
 FILE * __cdecl __iob_func(void);
+#endif
 
 /* set if CPU is big endian */
 #undef WORDS_BIGENDIAN
